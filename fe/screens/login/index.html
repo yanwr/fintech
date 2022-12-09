@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Fintech para controle financeiro">
+    <meta name="keywords" content="Fintech, controle financeiro, dinheiro">
+    <meta name="author" content="Yan">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fintech - Login</title>
+    <link href="../../styles/index.css" rel="stylesheet" type="text/css">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  </head>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <div id="root" class="container-fluid">
+      <main class="container-main">
+          <article class="container-logo">
+              <img src="../../imgs/logo.svg" alt="Logo Fintech">
+          </article>
+  
+          <article class="container-labels">
+            <h3>Realizar login</h3>
+            <a id="btn-singup" href="../singup/index.html">Ou crie uma conta</a>
+          </article>
+          
+          <main class="container-login">
+            <form class="row needs-validation" novalidate>
+              <div class="form-floating">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label id="floatingInputLabel" for="floatingInput">Email</label>
+              </div>
+  
+              <div class="form-floating">
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                <label id="floatingPasswordLabel" for="floatingPassword">Senha</label>
+              </div>
+              
+              <div class="container-check">
+                <div id="container-form-check" class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                  <label id="invalidCheckLabel" class="form-check-label" for="invalidCheck">
+                    Lembrar-me
+                  </label>
+                </div>
+                <a href="">Esqueci minha senha</a>
+              </div>
+  
+              <article class="container-btn">
+                <a id="btn-next" href="" type="button" class="btn btn-primary" style="--bs-btn-bg: #774DD6; --bs-btn-border-color: #774DD6; --bs-btn-border-radius: 16px">Entrar</a>
+              </article>
+            </form>
+          </main>
+          
+          <article>
+            <p>ou</p>
+          </article>
+  
+          <article class="container-btn-social">
+            <a id="btn-next-google" href="../home/index.html" type="button" class="btn btn-primary">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M23.04 12.2614C23.04 11.4459 22.9668 10.6618 22.8309 9.90909H12V14.3575H18.1891C17.9225 15.795 17.1123 17.013 15.8943 17.8284V20.7139H19.6109C21.7855 18.7118 23.04 15.7636 23.04 12.2614Z" fill="#4285F4"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M11.9999 23.4998C15.1049 23.4998 17.7081 22.4701 19.6108 20.7137L15.8943 17.8282C14.8645 18.5182 13.5472 18.926 11.9999 18.926C9.00471 18.926 6.46948 16.903 5.56516 14.1848H1.72311V17.1644C3.61539 20.9228 7.50448 23.4998 11.9999 23.4998Z" fill="#34A853"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M5.56523 14.1851C5.33523 13.4951 5.20455 12.758 5.20455 12.0001C5.20455 11.2421 5.33523 10.5051 5.56523 9.81506V6.83551H1.72318C0.944318 8.38801 0.5 10.1444 0.5 12.0001C0.5 13.8557 0.944318 15.6121 1.72318 17.1646L5.56523 14.1851Z" fill="#FBBC05"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M11.9999 5.07386C13.6883 5.07386 15.2043 5.65409 16.3961 6.79364L19.6945 3.49523C17.7029 1.63955 15.0997 0.5 11.9999 0.5C7.50448 0.5 3.61539 3.07705 1.72311 6.83545L5.56516 9.815C6.46948 7.09682 9.00471 5.07386 11.9999 5.07386Z" fill="#EA4335"/>
+              </svg>
+              Entrar com Google
+            </a>
+            <a id="btn-next-facebook" href="../home/index.html" type="button" class="btn btn-primary">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_117_22)">
+                <rect width="24" height="24" fill="#1877F2"/>
+                <path d="M23.5 12.0698C23.5 5.71857 18.3513 0.569849 12 0.569849C5.64872 0.569849 0.5 5.71857 0.5 12.0698C0.5 17.8098 4.70538 22.5674 10.2031 23.4301V15.3941H7.2832V12.0698H10.2031V9.53626C10.2031 6.65407 11.92 5.06204 14.5468 5.06204C15.805 5.06204 17.1211 5.28665 17.1211 5.28665V8.11672H15.671C14.2424 8.11672 13.7969 9.00319 13.7969 9.91263V12.0698H16.9863L16.4765 15.3941H13.7969V23.4301C19.2946 22.5674 23.5 17.8098 23.5 12.0698Z" fill="white"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_117_22">
+                <rect width="24" height="24" fill="white"/>
+                </clipPath>
+                </defs>
+              </svg>
+              Entrar com Facebook
+            </a>
+            <a id="btn-next-apple" href="../home/index.html" type="button" class="btn btn-primary">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="24" height="24" fill="black"/>
+                <path d="M21.2806 18.424C20.9328 19.2275 20.5211 19.9672 20.0441 20.6472C19.3939 21.5743 18.8615 22.216 18.4512 22.5724C17.8151 23.1573 17.1337 23.4568 16.4039 23.4739C15.8801 23.4739 15.2483 23.3248 14.5129 23.0224C13.7751 22.7214 13.097 22.5724 12.477 22.5724C11.8268 22.5724 11.1294 22.7214 10.3835 23.0224C9.63647 23.3248 9.03466 23.4824 8.57453 23.498C7.87475 23.5278 7.17725 23.2197 6.48102 22.5724C6.03665 22.1848 5.48084 21.5204 4.81499 20.5791C4.1006 19.5739 3.51326 18.4084 3.05313 17.0795C2.56035 15.6442 2.31332 14.2543 2.31332 12.9087C2.31332 11.3673 2.64639 10.0379 3.31351 8.92385C3.83781 8.029 4.53531 7.32312 5.40829 6.80493C6.28127 6.28674 7.22453 6.02267 8.24033 6.00578C8.79614 6.00578 9.52502 6.1777 10.4308 6.51559C11.334 6.85462 11.914 7.02655 12.1682 7.02655C12.3583 7.02655 13.0026 6.82552 14.0948 6.42473C15.1276 6.05305 15.9993 5.89916 16.7134 5.95978C18.6485 6.11595 20.1023 6.87876 21.0691 8.25303C19.3385 9.30163 18.4824 10.7703 18.4994 12.6544C18.5151 14.122 19.0474 15.3432 20.0938 16.3129C20.568 16.7629 21.0975 17.1107 21.6867 17.3578C21.5589 17.7283 21.424 18.0832 21.2806 18.424ZM16.8426 0.960131C16.8426 2.11039 16.4224 3.18439 15.5848 4.17847C14.5739 5.36023 13.3513 6.04311 12.0254 5.93536C12.0085 5.79736 11.9987 5.65213 11.9987 5.49951C11.9987 4.39526 12.4794 3.21349 13.3331 2.24724C13.7593 1.75801 14.3014 1.35122 14.9587 1.02671C15.6146 0.707053 16.235 0.530273 16.8185 0.5C16.8355 0.653772 16.8426 0.807554 16.8426 0.960116V0.960131Z" fill="white"/>
+              </svg>
+              Entrar com Apple
+            </a>
+          </article>
+        </main>
+
+        <aside class="container-aside">
+          <article class="container-img">
+            <img src="../../imgs/logo.svg" alt="Logo Fintech">
+          </article>
+          <article class="container-title">
+            <h4>Bem vindo ao <span>Fintech</span>,</h4>
+            <h4>seu amigo no <span>controle financeiro.</span></h4>
+          </article>
+        </aside>
+    </div>
+  </body>
+</html>
