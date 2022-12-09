@@ -1,0 +1,44 @@
+:root {
+    font-size: 60%;
+
+    --color-background: #DBDBDB;
+    --color-primary: #8257E5;
+    --color-primary-dark: #774DD6;
+    --color-primary-light: #916BEA;
+    --color-primary-error: #F56565;
+    --color-primary-success: #04D361;
+    --color-title-primary: #32264D;
+    --color-text-primary: #6A6180;
+    --color-label-primary: #9C98A6;
+    --color-text-btb-primary: #FFFFFF;
+    --color-background-input: #FAFAFC;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100vh;
+}
+body, input, button, textarea {
+    font: 500 1.6rem;
+}
+button {
+    outline: none;  
+}
+
+#root {
+    height: 100vh;
+    display: flex;
+    background: var(--color-background);
+    font-family: 'Poppins', sans-serif;
+}
+
+@media (min-width: 700px) {
+    :root {
+        font-size: 62.5%;
+    }
+}
